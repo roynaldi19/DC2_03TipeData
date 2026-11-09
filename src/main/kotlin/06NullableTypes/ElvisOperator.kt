@@ -1,8 +1,8 @@
 package `06NullableTypes`
 
 fun main() {
-    val text: String? = null
-    val textLength = text?.length ?: "tidak diketahui"
-    println(textLength)
-
+    val judul: String = "Belajar Kotlin"
+    var catatanBuku: String? = null
+    var panjangCatatanBuku = catatanBuku?.length ?: 0
+    println("Buku $judul memiliki panjang $panjangCatatanBuku")
 }

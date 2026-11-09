@@ -1,3 +1,3 @@
 
-rootProject.name = "DC2_03VariabelDanTipeData"
+rootProject.name = "DC2_03TipeData"
 

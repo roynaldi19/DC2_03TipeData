@@ -1,12 +1,11 @@
 package `02TipeDataTeks`
 
 fun main() {
-    val line = """
-        Line 1
-        Line 2
-        Line 3
-        Line 4
+    val menu = """
+        === \"Menu Utama"\ ===
+        1. Nasi Goreng
+        2. Mie Goreng
+        3. Roti Bakar
     """.trimIndent()
-
-    print(line)
+    print(menu)
 }

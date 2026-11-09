@@ -1,17 +1,13 @@
 package `03TipeDataAngka`
 
 fun main() {
-    var a = 5
-    var b = 10
-
-    a++
-    println("Nilai a setelah increment: $a")
-
-    b--
-    println("Nilai b setelah decrement: $b")
-
     var x = 5
     var y = 10
+
+    println("nilai x = $x")
+    println("nilai y = $y")
+
+    println("=====================================")
 
     x += 3
     println("Nilai x setelah x += 3: $x")

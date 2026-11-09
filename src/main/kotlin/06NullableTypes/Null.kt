@@ -1,12 +1,9 @@
 package `06NullableTypes`
 
 fun main() {
-    val text: String? = null
+    var namaUser: String? = null
+    println(namaUser)
 
-    if (text != null) {
-        val textLength = text.length
-        println(textLength)
-    } else {
-        println("input is null")
-    }
+    namaUser = "Dicoding"
+    println(namaUser)
 }
